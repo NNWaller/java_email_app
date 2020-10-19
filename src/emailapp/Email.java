@@ -91,7 +91,7 @@ public class Email {
 
     //Change the password or Set the password
     public void changePassword(String password){
-        this.password = password;
+        this.password = password; 
     }
 
     //Get the password
