@@ -42,6 +42,7 @@ public class Email {
                 firstName + " " + lastName + ": ");
         Scanner scanner = new Scanner(System.in);
         int departmentChoice = scanner.nextInt();
+        scanner.close();
         if (departmentChoice == 1) { return "Sales";}
         else if(departmentChoice == 2) {return "Development";}
         else if(departmentChoice == 3) {return "Accounting";}
